@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f6f9;
+    margin-top: 100px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #2c7be5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #1a5fcc;
+}
+
+.navbar {
+    background: #2c7be5;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
