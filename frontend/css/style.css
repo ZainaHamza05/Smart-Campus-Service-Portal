@@ -50,5 +50,61 @@ body {
     font-weight: bold;
 }
 
+/* Hero Section */
+.hero {
+    background-color: #2c7be5; /* Matching your navbar */
+    height: 60vh; /* Takes up 60% of the screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    opacity: 0.9; /* Softens the text slightly */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero Buttons */
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #2c7be5;
+    margin-right: 15px;
+}
+
+.btn-secondary {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    background-color: #f0f0f0;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 
